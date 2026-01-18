@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SWEDENET FINALS</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 64px;
+            letter-spacing: 4px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-top: 15px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .card h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            padding-bottom: 10px;
+        }
+
+        .files ul, .members ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .files li, .members li {
+            background-color: rgba(0,0,0,0.3);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .files li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .files a {
+            color: #00e6ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .files a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0,0,0,0.4);
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>SWEDENET FINALS</h1>
+    <p>SDN Network Project – Web & File Sharing System</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>About This Website</h2>
+        <p>
+            This website is part of the <strong>SWEDENET Final Project</strong>.
+            It demonstrates a simple SDN-based network with centralized control,
+            web services, and file sharing.
+        </p>
+    </div>
+
+    <!-- ✅ WORKING DOWNLOAD LINKS -->
+    <div class="card files">
+        <h2>File Sharing</h2>
+        <ul>
+            <li>
+                <span>📄 Project Documentation</span>
+                <a href="files/Project Documentation.pdf" download>
+                    Download
+                </a>
+            </li>
+            <li>
+                <span>📁 Network Topology Diagram</span>
+                <a href="files/Network_Topology.png" download>
+                    Download
+                </a>
+            </li>
+            <li>
+                <span>📝 SDN Configuration File</span>
+                <a href="files/SDN_Configuration.txt" download>
+                    Download
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="card members">
+        <h2>Project Members</h2>
+        <ul>
+            <li>Alysa</li>
+            <li>Asuncion</li>
+            <li>Roque</li>
+            <li>Carballo</li>
+            <li>Teves</li>
+            <li>Remigio</li>
+            <li>Libron</li>
+            <li>Garcia</li>
+            <li>Luwi</li>
+            <li>Caimpon</li>
+            <li>Recto</li>
+            <li>Elequin</li>
+            <li>Novilla</li>
+            <li>Yorkie</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 SWEDENET | Final Project | Cisco Packet Tracer & SDN
+</footer>
+
+</body>
+</html>
